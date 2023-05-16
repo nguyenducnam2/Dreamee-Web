@@ -1,0 +1,40 @@
+body {
+    font-family: "Droid Sans Mono Dotted";
+}
+
+.form {
+    margin-left: 25%;
+    width: 50%;
+    background-color: antiquewhite;
+    border-style: solid;
+}
+
+.form .header {
+    text-align: center;
+}
+
+.form #subtext {
+    font-size: 20px;
+    padding-left: 5%;
+    padding-right: 200px;
+}
+
+.form .content {
+    background-color: darkorchid;
+    padding-left: 15%;
+}
+
+#process1 {
+    padding-left: 5%;
+    background-color: crimson;
+}
+
+#process2 {
+    padding-left: 25%;
+    background-color: crimson;
+}
+
+#process3 {
+    padding-left: 110%;
+    background-color: crimson;
+}
