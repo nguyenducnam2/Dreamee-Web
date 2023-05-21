@@ -1,23 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<table>
-    <div class="form">
-        <div class="header">
-            <h1 id="subject">Tự hào khi stan idol</h1>
-            <h4 id="subtext">[cụm từ]</h4>
-        </div>
-        <div class="content">
-            <p id="text_1">Idol đẹp: <span id="process1"> &emsp; </span></p>
-            <p id="text_2">Idol giỏi: <span id="process2"> &emsp; </span></p>
-            <p id="text_3">Idol nhân cách đẹp:<span id="process3"> &emsp; </span></p>
-        </div>
-    </div>
-</table>
+
+<div class="button">
+    <h4 onclick="showPanel()">Click to show panel</h4>
+</div>
+
+<div class="panel">
+    <p>This panel contains a element, which is hidden by default (<span>display: none</span>).</p>
+    <p>It is styled with CSS, and we use JavaScript to show it (change it to (<span>display: block</span>).</p>
+</div>
+
 <script src="script.js"></script>
 </body>
 </html>

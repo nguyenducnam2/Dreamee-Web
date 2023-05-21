@@ -1,39 +1,33 @@
 body {
-    font-family: "Droid Sans Mono Dotted";
+    margin: 0;
+    font-family: sans-serif;
 }
 
-.form {
-    margin-left: 25%;
-    width: 50%;
-    background-color: antiquewhite;
-    border-style: solid;
+.button {
+    background-color: seagreen;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid darkgray;
 }
 
-.form .header {
+h4 {
+    margin: 0;
+    padding: 10px;
+}
+
+.panel {
+    background-color: seagreen;
+    color: white;
     text-align: center;
 }
 
-.form #subtext {
-    font-size: 20px;
-    padding-left: 5%;
-    padding-right: 200px;
+p {
+    margin: 0;
+    padding: 10px;
 }
 
-.form .content {
-    padding-left: 15%;
-}
-
-#process1 {
-    padding-left: 5%;
-    background-color: crimson;
-}
-
-#process2 {
-    padding-left: 25%;
-    background-color: crimson;
-}
-
-#process3 {
-    padding-left: 59%;
-    background-color: crimson;
+span {
+    background-color: white;
+    color: tomato;
+    padding: 0px 2px;
 }
