@@ -1,10 +1,10 @@
 body {
     margin: 0;
-    font-family: sans-serif;
+    font-family: Audiowide;
 }
 
 .button {
-    background-color: seagreen;
+    background-color: black;
     color: white;
     text-align: center;
     border-bottom: 1px solid darkgray;
@@ -16,7 +16,7 @@ h4 {
 }
 
 .panel {
-    background-color: seagreen;
+    background-color: black;
     color: white;
     text-align: center;
 }
