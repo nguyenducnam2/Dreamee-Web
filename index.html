@@ -2,19 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>Okay</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="button">
-    <h4 onclick="showPanel()">Nhấn vào đây để nhận lời chúc</h4>
+<div class="header">
+    <h1>My Website</h1>
+    <p>Resize the browser window to see the effect.</p>
 </div>
 
-<div class="panel">
-    <p>Welcome (<span>chị béo</span>).</p>
-    <p>This is basic HTML , CSS , JS (<span>Front-end</span>).</p>
+<div class="nav">
+    <ul>
+        <li><a href="">Link</a></li>
+        <li><a href="">Link</a></li>
+        <li><a href="">Link</a></li>
+        <li id="last-nav"><a href="">Link</a></li>
+    </ul>
+</div>
+
+<div class="row">
+
+    <div class="column left">
+        <div class="card">
+            <h4 class="card-title">
+                Card Title
+            </h4>
+            <p class="card-desc">Title description, Dec 7, 2017</p>
+            <img style="width: 100%;height: auto;" src="image/shoes1.webp" alt="" class="card-img">
+            <p>Some Text</p>
+            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco. </p>
+        </div>
+        <div class="card">
+            <h4 class="card-title">
+                Card Title
+            </h4>
+            <p class="card-desc">Title description, Dec 7, 2017</p>
+            <img style="width: 100%;height: auto;" src="image/shoes1.webp" alt="" class="card-img">
+            <p>Some Text</p>
+            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco. </p>
+        </div>
+    </div>
+
+    <div class="column right">
+        <div class="card">
+            <h4 class="card-title">
+                About Me
+            </h4>
+            <img style="width: 100%;height: auto;" src="image/img_tree.png" alt="" class="card-img">
+            <p>Some Text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid atque cum</p>
+        </div>
+        <div class="card">
+            <h4 class="card-title">
+                Popular Post
+            </h4>
+            <img style="width: 100%;height: auto;" src="image/shoes2.webp" alt="" class="card-img">
+            <img style="width: 100%;height: auto;" src="image/shoes3.webp" alt="" class="card-img">
+            <img style="width: 100%;height: auto;" src="image/shoes4.webp" alt="" class="card-img">
+        </div>
+        <div class="card">
+            <h4 class="card-title">
+                Follow me
+            </h4>
+            <p>Loremem.</p>
+        </div>
+    </div>
+
+</div>
+
+<div class="footer">
+    <h2>Footer</h2>
 </div>
 
 <script src="script.js"></script>
