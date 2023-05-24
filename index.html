@@ -1,81 +1,156 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>Okay</title>
+    <title>Advance CSS</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="header">
-    <h1>My Website</h1>
-    <p>Resize the browser window to see the effect.</p>
-</div>
-
-<div class="nav">
-    <ul>
+<div class="top-nav">
+    <ul class="top-nav-list">
         <li><a href="">Link</a></li>
         <li><a href="">Link</a></li>
         <li><a href="">Link</a></li>
-        <li id="last-nav"><a href="">Link</a></li>
+        <li class="dropdown">
+            <a href="">Dropdown</a>
+            <div class="dropdown-content">
+                <ul class="dropdown-list">
+                    <li><a href="">line 1</a></li>
+                    <li><a href="">line 2</a></li>
+                    <li><a href="">line 3</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="list-item-right"><a href="">Link</a></li>
     </ul>
 </div>
 
-<div class="row">
-
-    <div class="column left">
-        <div class="card">
-            <h4 class="card-title">
-                Card Title
-            </h4>
-            <p class="card-desc">Title description, Dec 7, 2017</p>
-            <img style="width: 100%;height: auto;" src="image/shoes1.webp" alt="" class="card-img">
-            <p>Some Text</p>
-            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                ullamco. </p>
-        </div>
-        <div class="card">
-            <h4 class="card-title">
-                Card Title
-            </h4>
-            <p class="card-desc">Title description, Dec 7, 2017</p>
-            <img style="width: 100%;height: auto;" src="image/shoes1.webp" alt="" class="card-img">
-            <p>Some Text</p>
-            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                ullamco. </p>
+<div class="main">
+    <div class="container">
+        <div class="row">
+            <div class="col col-2 sidebar-col">
+                <div class="sidebar">
+                    <ul class="sidebar-list">
+                        <li><a href="">Option</a></li>
+                        <li><a href="">Option</a></li>
+                        <li><a href="">Option</a></li>
+                        <li><a href="">Option</a></li>
+                        <li><a href="">Option</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col col-8">
+                <div class="content">
+                    <h2>Welcome to my world</h2>
+                    <div class="card" onclick="show_modal(this)">
+                        <h2 class="title">Black Pink</h2>
+                        <div class="card-content">
+                            <img src="image/img_avatar3.png" alt="">
+                            <div class="overlay">
+                                <p class="desc">View</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" vip>
+                        <h2 class="title">Black Pink</h2>
+                        <div class="card-content">
+                            <img src="image/img_avatar3.png" alt="">
+                            <div class="overlay-slide">
+                                <button class="desc btn">Vip</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" onclick="show_modal(this)">
+                        <h2 class="title">Black Pink</h2>
+                        <div class="card-content">
+                            <img src="image/shoes6.webp" alt="">
+                            <div class="overlay">
+                                <p class="desc">View</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" onclick="show_modal(this)">
+                        <h2 class="title">Black Pink</h2>
+                        <div class="card-content">
+                            <img src="image/shoes5.webp" alt="">
+                            <div class="overlay">
+                                <p class="desc">View</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" onclick="show_modal(this)">
+                        <h2 class="title">Black Pink</h2>
+                        <div class="card-content">
+                            <img src="image/shoes4.webp" alt="">
+                            <div class="overlay">
+                                <p class="desc">View</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" onclick="show_modal(this)">
+                        <h2 class="title">Black Pink</h2>
+                        <div class="card-content">
+                            <img src="image/shoes3.webp" alt="">
+                            <div class="overlay">
+                                <p class="desc">View</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" onclick="show_modal(this)">
+                        <h2 class="title">Black Pink</h2>
+                        <div class="card-content">
+                            <img src="image/shoes2.webp" alt="">
+                            <div class="overlay">
+                                <p class="desc">View</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" onclick="show_modal(this)">
+                        <h2 class="title">Black Pink</h2>
+                        <div class="card-content">
+                            <img src="image/shoes6.webp" alt="">
+                            <div class="overlay">
+                                <p class="desc">View</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-2">
+                <div class="ads-bar">
+                    <div class="ads-banner">
+                        <h2>Shop giay gia re</h2>
+                        <img src="image/shoes3.webp" alt="" style="width: 100%;max-width: 200px;">
+                    </div>
+                    <div class="ads-banner">
+                        <h2>Shop giay gia re</h2>
+                        <img src="image/shoes2.webp" alt="" style="width: 100%;max-width: 200px;">
+                    </div>
+                    <h2>About</h2>
+                    <p>Lorem ienuisquam?</p>
+                </div>
+            </div>
         </div>
     </div>
-
-    <div class="column right">
-        <div class="card">
-            <h4 class="card-title">
-                About Me
-            </h4>
-            <img style="width: 100%;height: auto;" src="image/img_tree.png" alt="" class="card-img">
-            <p>Some Text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid atque cum</p>
-        </div>
-        <div class="card">
-            <h4 class="card-title">
-                Popular Post
-            </h4>
-            <img style="width: 100%;height: auto;" src="image/shoes2.webp" alt="" class="card-img">
-            <img style="width: 100%;height: auto;" src="image/shoes3.webp" alt="" class="card-img">
-            <img style="width: 100%;height: auto;" src="image/shoes4.webp" alt="" class="card-img">
-        </div>
-        <div class="card">
-            <h4 class="card-title">
-                Follow me
-            </h4>
-            <p>Loremem.</p>
-        </div>
-    </div>
-
 </div>
 
+<div class="modal">
+    <span id="btn-close" class="btn-close">&times;</span>
+    <div class="content">
+        <img id="imgpopup" alt="">
+    </div>
+</div>
+
+
 <div class="footer">
-    <h2>Footer</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col col-12">
+                <h1>Footer</h1>
+            </div>
+        </div>
+    </div>
 </div>
 
 <script src="script.js"></script>
